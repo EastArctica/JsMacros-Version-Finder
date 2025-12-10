@@ -5,7 +5,6 @@ import { z } from "zod";
 const platformEnum = z.enum(["fabric", "forge", "neoforge", "extension", "ts", "other", "python"]);
 const loaderEnum = z.enum(["fabric", "forge", "neoforge"]);
 const releaseTypeEnum = z.enum(["release", "beta", "nightly"]);
-const statusEnum = z.enum(["supported", "deprecated", "experimental"]);
 
 const downloadSchema = z.object({
   name: z.string().min(1),
@@ -25,7 +24,6 @@ const buildSchema = z.object({
   extensions: z.array(z.string().min(1)).min(1),
   downloads: z.array(downloadSchema).min(1),
   releaseType: releaseTypeEnum,
-  status: statusEnum.optional(),
   publishedAt: z
     .string()
     .regex(/^\d{4}-\d{2}-\d{2}$/, "Expected YYYY-MM-DD")

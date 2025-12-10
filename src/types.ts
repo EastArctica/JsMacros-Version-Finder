@@ -1,7 +1,6 @@
 export type Platform = "fabric" | "forge" | "neoforge" | "extension" | "ts" | "other" | "python";
 export type Loader = "fabric" | "forge" | "neoforge";
 export type ReleaseType = "release" | "beta" | "nightly";
-export type Status = "supported" | "deprecated" | "experimental";
 
 export interface Download {
   name: string;
@@ -21,7 +20,6 @@ export interface Build {
   extensions: string[];
   downloads: Download[];
   releaseType: ReleaseType;
-  status?: Status;
   publishedAt?: string;
   notes?: string;
 }

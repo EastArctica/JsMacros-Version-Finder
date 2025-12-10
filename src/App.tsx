@@ -17,19 +17,6 @@ function formatDate(value?: string) {
   return Number.isNaN(d.getTime()) ? value : d.toLocaleDateString();
 }
 
-function statusColor(status?: string) {
-  switch (status) {
-    case "supported":
-      return "#65f0b1";
-    case "deprecated":
-      return "#f0a365";
-    case "experimental":
-      return "#f0658f";
-    default:
-      return "#9fb3d9";
-  }
-}
-
 function releaseColor(releaseType: ReleaseType) {
   switch (releaseType) {
     case "release":
@@ -105,7 +92,6 @@ function App() {
         b.fork,
         b.repo,
         b.releaseType,
-        b.status ?? "",
         b.modLoader.join(" "),
         b.extensions.join(" "),
         b.notes ?? "",
@@ -260,7 +246,6 @@ function App() {
                   </div>
                   <div className="muted" style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
                     <span>Published {formatDate(b.publishedAt)}</span>
-                    <span style={{ color: statusColor(b.status) }}>{b.status ?? ""}</span>
                   </div>
                 </div>
               ))}
@@ -322,7 +307,6 @@ function App() {
                   <th>Loader</th>
                   <th>Extensions</th>
                   <th>Release</th>
-                  <th>Status</th>
                   <th>Published</th>
                   <th>Downloads</th>
                 </tr>
@@ -352,7 +336,6 @@ function App() {
                         {b.releaseType}
                       </span>
                     </td>
-                    <td style={{ color: statusColor(b.status) }}>{b.status ?? ""}</td>
                     <td>{formatDate(b.publishedAt)}</td>
                     <td>
                       <div className="badge-row">
@@ -367,7 +350,7 @@ function App() {
                 ))}
                 {listResults.length === 0 && (
                   <tr>
-                    <td colSpan={9} className="muted">
+                    <td colSpan={8} className="muted">
                       No builds match this search.
                     </td>
                   </tr>
