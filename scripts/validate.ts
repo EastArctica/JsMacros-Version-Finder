@@ -19,6 +19,7 @@ const buildSchema = z.object({
   repo: z.string().min(1),
   fork: z.string().min(1),
   commit: z.string().min(7),
+  sourceUrl: z.string().url().optional(),
   jsMacrosVersion: z.string().min(1),
   modLoader: z.array(loaderEnum).min(1),
   extensions: z.array(z.string().min(1)).min(1),

@@ -171,6 +171,14 @@ p {
   vertical-align: top;
 }
 
+.table tbody tr:nth-child(even) td {
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.table tbody tr:nth-child(odd) td {
+  background: rgba(255, 255, 255, 0.01);
+}
+
 .table th {
   color: #9fb3d9;
   font-size: 13px;
@@ -178,7 +186,7 @@ p {
 }
 
 .table tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(124, 199, 255, 0.05);
 }
 
 .badge-row {

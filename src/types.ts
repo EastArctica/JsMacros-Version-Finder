@@ -15,6 +15,7 @@ export interface Build {
   repo: string;
   fork: string;
   commit: string;
+  sourceUrl?: string;
   jsMacrosVersion: string;
   modLoader: Loader[];
   extensions: string[];

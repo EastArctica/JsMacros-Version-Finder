@@ -91,6 +91,7 @@ function App() {
         b.jsMacrosVersion,
         b.fork,
         b.repo,
+        b.sourceUrl ?? "",
         b.releaseType,
         b.modLoader.join(" "),
         b.extensions.join(" "),
@@ -226,7 +227,13 @@ function App() {
                 <div key={b.id} className="card">
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                     <div>
-                      <strong>{b.fork}</strong> · {b.jsMacrosVersion} - {b.mcVersion}
+                      <strong>{b.sourceUrl ? (
+                        <a className="link" href={b.sourceUrl} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
+                          {b.fork}
+                        </a>
+                      ) : (
+                        b.fork
+                      )}</strong> · {b.jsMacrosVersion} - {b.mcVersion}
                     </div>
                     <span className="badge" style={{ borderColor: releaseColor(b.releaseType), color: releaseColor(b.releaseType) }}>
                       {b.releaseType}
@@ -316,7 +323,15 @@ function App() {
                   <tr key={b.id}>
                     <td>{b.mcVersion}</td>
                     <td>{b.jsMacrosVersion}</td>
-                    <td>{b.fork}</td>
+                    <td>
+                      {b.sourceUrl ? (
+                        <a className="link" href={b.sourceUrl} target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}>
+                          {b.fork}
+                        </a>
+                      ) : (
+                        b.fork
+                      )}
+                    </td>
                     <td>
                       <div className="badge-row">
                         {b.modLoader.map((l) => (
