@@ -371,21 +371,21 @@
         "id": "JsMacros/JsMacros-2.0.0-1.21.4",
         "repo": "JsMacros/JsMacros",
         "fork": "Official",
-        "commit": "836eaa42edbd0b7997ba860d1682c2344d43c1bc",
+        "commit": "a502a4666c042cce3883a2df0b29576febd14c50",
         "jsMacrosVersion": "2.0.0",
         "modLoader": ["fabric", "forge"],
         "extensions": ["js", "python"],
         "downloads": [
           {
-            "name": "jsmacros-1.21.4-2.0.0-beta-836eaa4.zip",
+            "name": "jsmacros-1.21.4-2.0.0-beta-a502a46.zip",
             "platform": ["fabric", "forge", "ts", "python"],
-            "url": "https://discord.com/channels/732004268948586545/732005513147187313/1372099619177234493",
+            "url": "https://discord.com/channels/732004268948586545/732004530115444767/1415652212914389116",
             "checksum": "TODO: add checksum"
           }
         ],
-        "releaseType": "beta",
-        "publishedAt": "2025-03-27",
-        "sourceUrl": "https://github.com/JsMacros/JsMacros/commit/836eaa42edbd0b7997ba860d1682c2344d43c1bc"
+        "releaseType": "nightly",
+        "publishedAt": "2025-09-11",
+        "sourceUrl": "https://discord.com/channels/732004268948586545/732004530115444767/1415652212914389116"
       },
       {
         "id": "Etheradon/JsMacros-2.0.0-1.21.4",
