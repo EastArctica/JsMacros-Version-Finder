@@ -388,7 +388,7 @@
         "notes": "TODO: Expired github artifact, rebuild and re-upload."
     }],
     "1.21.5": [{
-        "id": "Pablete1234/JsMacros-2.0.0-1.21.8",
+        "id": "Pablete1234/JsMacros-2.0.0-1.21.5",
         "repo": "Pablete1234/JsMacros",
         "fork": "Pablete1234",
         "commit": "addde4681f82ad2b1f154c0365ea7e8b3db181c0",

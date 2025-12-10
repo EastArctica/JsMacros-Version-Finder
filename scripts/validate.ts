@@ -57,6 +57,19 @@ async function main() {
     return;
   }
 
+  // Validate no duplicate ids
+  const ids = new Set<string>();
+  for (const [mcVersion, builds] of Object.entries(result.data.versions || {})) {
+    for (const build of builds) {
+      if (ids.has(build.id)) {
+        console.error(`Validation failed for ${basename(file)}: Duplicate build id "${build.id}" for Minecraft version ${mcVersion}`);
+        process.exitCode = 1;
+        return;
+      }
+      ids.add(build.id);
+    }
+  }
+
   console.log(`${basename(file)} is valid.`);
 }
 
