@@ -1,6 +1,6 @@
 import type { Build, BuildsData, EnrichedBuild } from "./types";
 
-export async function loadBuilds(url = "/data/builds.json"): Promise<{
+export async function loadBuilds(url = `${import.meta.env.BASE_URL}data/builds.json`): Promise<{
   data: BuildsData | null;
   builds: EnrichedBuild[];
   error?: string;
