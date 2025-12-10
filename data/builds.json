@@ -456,7 +456,8 @@
         ],
         "releaseType": "beta",
         "publishedAt": "2025-08-05",
-        "sourceUrl": "https://github.com/therealevvv/jsmacrostorage/releases/tag/1.21.7"
+        "sourceUrl": "https://github.com/therealevvv/jsmacrostorage/releases/tag/1.21.7",
+        "deprecated": true
       }
     ],
     "1.21.8": [
@@ -504,7 +505,8 @@
         ],
         "releaseType": "beta",
         "publishedAt": "2025-08-11",
-        "sourceUrl": "https://github.com/therealevvv/jsmacrostorage/releases/tag/1.21.8"
+        "sourceUrl": "https://github.com/therealevvv/jsmacrostorage/releases/tag/1.21.8",
+        "deprecated": true
       },
       {
         "id": "EastArctica/JsMacros-Dev-2.0.0-1.21.8",

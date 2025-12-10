@@ -85,11 +85,19 @@ function App() {
   const extensions = useMemo(() => uniqueSorted(builds.flatMap((b) => b.extensions)), [builds]);
 
   const guideResults = useMemo(() => {
-    return builds.filter((b) => {
-      if (selectedMcVersion && b.mcVersion !== selectedMcVersion) return false;
-      if (selectedLoader && !b.modLoader.includes(selectedLoader)) return false;
-      return buildMatchesExtensions(b, extensionFilters);
-    });
+    return builds
+      .filter((b) => {
+        if (selectedMcVersion && b.mcVersion !== selectedMcVersion) return false;
+        if (selectedLoader && !b.modLoader.includes(selectedLoader)) return false;
+        return buildMatchesExtensions(b, extensionFilters);
+      })
+      .sort((a, b) => {
+        // Show newer builds first so older ones sit lower in the list
+        const da = a.publishedAt ? new Date(a.publishedAt).getTime() : 0;
+        const db = b.publishedAt ? new Date(b.publishedAt).getTime() : 0;
+        if (da !== db) return db - da;
+        return compareVersions(b.mcVersion, a.mcVersion);
+      });
   }, [builds, selectedLoader, selectedMcVersion, extensionFilters]);
 
   const listResults = useMemo(() => {
@@ -103,6 +111,7 @@ function App() {
         b.repo,
         b.sourceUrl ?? '',
         b.releaseType,
+        b.deprecated ? 'deprecated' : '',
         b.modLoader.join(' '),
         b.extensions.join(' '),
         b.notes ?? '',
@@ -252,7 +261,14 @@ function App() {
             <div className='card-grid' style={{ marginTop: 14 }}>
               {guideResults.map((b) => (
                 <div key={b.id} className='card'>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                  <div
+                    style={{
+                      display: 'grid',
+                      gridTemplateColumns: '1fr auto',
+                      alignItems: 'start',
+                      gap: 10,
+                    }}
+                  >
                     <div>
                       <strong>
                         {b.sourceUrl ? (
@@ -271,12 +287,26 @@ function App() {
                       </strong>{' '}
                       · {b.jsMacrosVersion} - {b.mcVersion}
                     </div>
-                    <span
-                      className='badge'
-                      style={{ borderColor: releaseColor(b.releaseType), color: releaseColor(b.releaseType) }}
-                    >
-                      {b.releaseType}
-                    </span>
+                    <div style={{ display: 'inline-flex', gap: 6, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+                      <span
+                        className='badge'
+                        style={{ borderColor: releaseColor(b.releaseType), color: releaseColor(b.releaseType) }}
+                      >
+                        {b.releaseType}
+                      </span>
+                      {b.deprecated ? (
+                        <span
+                          className='badge'
+                          style={{
+                            borderColor: '#f28b82',
+                            color: '#f28b82',
+                            background: 'rgba(242, 139, 130, 0.12)',
+                          }}
+                        >
+                          Deprecated
+                        </span>
+                      ) : null}
+                    </div>
                   </div>
                   <div className='chip-row'>
                     <span className='chip'>Loader: {b.modLoader.join(', ')}</span>
@@ -410,6 +440,19 @@ function App() {
                       >
                         {b.releaseType}
                       </span>
+                      {b.deprecated ? (
+                        <span
+                          className='badge'
+                          style={{
+                            borderColor: '#f28b82',
+                            color: '#f28b82',
+                            marginLeft: 6,
+                            background: 'rgba(242, 139, 130, 0.12)',
+                          }}
+                        >
+                          Deprecated
+                        </span>
+                      ) : null}
                     </td>
                     <td>{formatDate(b.publishedAt)}</td>
                     <td>

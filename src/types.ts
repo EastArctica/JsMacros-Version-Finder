@@ -23,6 +23,7 @@ export interface Build {
   releaseType: ReleaseType;
   publishedAt?: string;
   notes?: string;
+  deprecated?: boolean;
 }
 
 export interface BuildsData {
