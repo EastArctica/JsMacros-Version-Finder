@@ -26,7 +26,10 @@ const buildSchema = z.object({
   downloads: z.array(downloadSchema).min(1),
   releaseType: releaseTypeEnum,
   status: statusEnum.optional(),
-  publishedAt: z.string().min(1).optional(),
+  publishedAt: z
+    .string()
+    .regex(/^\d{4}-\d{2}-\d{2}$/, "Expected YYYY-MM-DD")
+    .optional(),
   notes: z.string().min(1).optional(),
 });
 
