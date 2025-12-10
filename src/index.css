@@ -171,6 +171,21 @@ p {
   vertical-align: top;
 }
 
+/* Extensions */
+.table th:nth-child(5),
+.table td:nth-child(5) {
+  max-width: 140px;
+  width: 18%;
+  word-break: break-word;
+}
+
+/* Downloads */
+.table th:nth-child(8),
+.table td:nth-child(8) {
+  max-width: 160px;
+  width: 18%;
+  word-break: break-word;
+}
 .table tbody tr:nth-child(even) td {
   background: rgba(255, 255, 255, 0.03);
 }

@@ -9,7 +9,7 @@
         "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
         "jsMacrosVersion": "1.9.2",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.17.1-1.9.2-fabric.jar",
@@ -43,7 +43,7 @@
         "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
         "jsMacrosVersion": "1.9.2",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.18.2-1.9.2-fabric.jar",
@@ -77,7 +77,7 @@
         "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
         "jsMacrosVersion": "1.9.2",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.19.4-1.9.2-fabric.jar",
@@ -111,7 +111,7 @@
         "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
         "jsMacrosVersion": "1.9.2",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.20.1-1.9.2-fabric.jar",
@@ -145,7 +145,7 @@
         "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
         "jsMacrosVersion": "1.9.2",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.20.2-1.9.2-fabric.jar",
@@ -179,7 +179,7 @@
         "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
         "jsMacrosVersion": "1.9.2",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.20.4-1.9.2-fabric.jar",
@@ -213,7 +213,7 @@
         "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
         "jsMacrosVersion": "1.9.2",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.20.5-1.9.2-fabric.jar",
@@ -247,7 +247,7 @@
         "commit": "accd7af678fc9ff26610284f4a3ca58cee261726",
         "jsMacrosVersion": "1.9.3",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.20.5-1.9.3-beta-accd7af-fabric.jar",
@@ -282,7 +282,7 @@
         "commit": "76ef9d5f88e11cc52f565595d67bef4b518dc0ba",
         "jsMacrosVersion": "1.9.3",
         "modLoader": ["fabric", "forge"],
-        "extensions": ["js"],
+        "extensions": ["js", "jython", "jep", "lua", "ruby", "groovy", "kotlin", "wasm"],
         "downloads": [
           {
             "name": "jsmacros-1.21-1.9.3-beta-76ef9d5.zip",
