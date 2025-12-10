@@ -8,9 +8,12 @@
     "build": "vite build",
     "postbuild": "node --input-type=module -e \"import fs from 'node:fs'; fs.mkdirSync('dist/data',{recursive:true}); fs.copyFileSync('data/builds.json','dist/data/builds.json');\"",
     "preview": "vite preview",
-    "validate:data": "tsx scripts/validate.ts data/builds.json"
+    "validate:data": "tsx scripts/validate.ts data/builds.json",
+    "format": "biome format . --write",
+    "lint": "biome check ."
   },
   "devDependencies": {
+    "@biomejs/biome": "2.3.8",
     "@types/react": "^18.3.11",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.3",

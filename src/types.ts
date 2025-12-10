@@ -1,6 +1,6 @@
-export type Platform = "fabric" | "forge" | "neoforge" | "extension" | "ts" | "other" | "python";
-export type Loader = "fabric" | "forge" | "neoforge";
-export type ReleaseType = "release" | "beta" | "nightly";
+export type Platform = 'fabric' | 'forge' | 'neoforge' | 'extension' | 'ts' | 'other' | 'python';
+export type Loader = 'fabric' | 'forge' | 'neoforge';
+export type ReleaseType = 'release' | 'beta' | 'nightly';
 
 export interface Download {
   name: string;
