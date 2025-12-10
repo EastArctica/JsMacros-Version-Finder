@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["node", "vite/client"],
+    "jsx": "react-jsx"
+  },
+  "include": ["scripts/**/*.ts", "data/**/*.json", "src/**/*.ts", "src/**/*.tsx", "vite.config.ts"]
+}

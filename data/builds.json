@@ -1,0 +1,500 @@
+{
+  "updatedAt": "2025-12-09",
+  "versions": {
+    "1.17.1": [{
+        "id": "JsMacros/JsMacros-1.9.2-1.17.1",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
+        "jsMacrosVersion": "1.9.2",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.17.1-1.9.2-fabric.jar",
+                "platform": "fabric",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.17.1-1.9.2-fabric.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.17.1-1.9.2-forge.jar",
+                "platform": "forge",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.17.1-1.9.2-forge.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "typescript-backports_1.17.1.zip",
+                "platform": "ts",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/typescript-backports_1.17.1.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2024-03-12"
+    }],
+    "1.18.2": [{
+        "id": "JsMacros/JsMacros-1.9.2-1.18.2",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
+        "jsMacrosVersion": "1.9.2",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.18.2-1.9.2-fabric.jar",
+                "platform": "fabric",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.18.2-1.9.2-fabric.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.18.2-1.9.2-forge.jar",
+                "platform": "forge",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.18.2-1.9.2-forge.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "typescript-backports_1.18.2.zip",
+                "platform": "ts",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/typescript-backports_1.18.2.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2024-03-12"
+    }],
+    "1.19.4": [{
+        "id": "JsMacros/JsMacros-1.9.2-1.19.4",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
+        "jsMacrosVersion": "1.9.2",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.19.4-1.9.2-fabric.jar",
+                "platform": "fabric",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.19.4-1.9.2-fabric.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.19.4-1.9.2-forge.jar",
+                "platform": "forge",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.19.4-1.9.2-forge.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "typescript-backports_1.19.4.zip",
+                "platform": "ts",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/typescript-backports_1.19.4.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2024-03-12"
+    }],
+    "1.20.1": [{
+        "id": "JsMacros/JsMacros-1.9.2-1.20.1",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
+        "jsMacrosVersion": "1.9.2",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.20.1-1.9.2-fabric.jar",
+                "platform": "fabric",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.20.1-1.9.2-fabric.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.20.1-1.9.2-forge.jar",
+                "platform": "forge",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.20.1-1.9.2-forge.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "typescript-backports_1.20.1.zip",
+                "platform": "ts",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/typescript-backports_1.20.1.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2024-03-12"
+    }],
+    "1.20.2": [{
+        "id": "JsMacros/JsMacros-1.9.2-1.20.2",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
+        "jsMacrosVersion": "1.9.2",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.20.2-1.9.2-fabric.jar",
+                "platform": "fabric",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.20.2-1.9.2-fabric.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.20.2-1.9.2-forge.jar",
+                "platform": "forge",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.20.2-1.9.2-forge.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "typescript-backports_1.20.2.zip",
+                "platform": "ts",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/typescript-backports_1.20.2.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2024-03-12"
+    }],
+    "1.20.4": [{
+        "id": "JsMacros/JsMacros-1.9.2-1.20.4",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
+        "jsMacrosVersion": "1.9.2",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.20.4-1.9.2-fabric.jar",
+                "platform": "fabric",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.20.4-1.9.2-fabric.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.20.4-1.9.2-forge.jar",
+                "platform": "forge",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.20.4-1.9.2-forge.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "typescript-backports_1.20.4.zip",
+                "platform": "ts",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/typescript-backports_1.20.4.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2024-03-12"
+    }],
+    "1.20.5": [{
+        "id": "JsMacros/JsMacros-1.9.2-1.20.5",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "97c2774adfe6165f621dbd935ec9a94da43a7434",
+        "jsMacrosVersion": "1.9.2",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.20.5-1.9.2-fabric.jar",
+                "platform": "fabric",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.20.5-1.9.2-fabric.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.20.5-1.9.2-forge.jar",
+                "platform": "forge",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/jsmacros-1.20.5-1.9.2-forge.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "typescript-backports_1.20.5.zip",
+                "platform": "ts",
+                "url": "https://github.com/JsMacros/JsMacros/releases/download/1.9.2/typescript-backports_1.20.5.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2024-03-12"
+    }],
+    "1.20.6": [{
+        "id": "JsMacros/JsMacros-1.9.3-1.20.6",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official-ish",
+        "commit": "accd7af678fc9ff26610284f4a3ca58cee261726",
+        "jsMacrosVersion": "1.9.3",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.20.5-1.9.3-beta-accd7af-fabric.jar",
+                "platform": ["fabric"],
+                "url": "https://zipline.eastarcti.ca/u/sYATvr.jar",
+                "checksum": "TODO: add checksum"
+            },
+            
+            {
+                "name": "jsmacros-1.20.5-1.9.3-beta-accd7af-forge.jar",
+                "platform": ["forge"],
+                "url": "https://zipline.eastarcti.ca/u/vkjr7f.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.20.5-1.9.3-beta-accd7af.zip",
+                "platform": ["fabric", "forge", "ts"],
+                "url": "https://zipline.eastarcti.ca/u/fMFAEd.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "beta",
+        "status": "experimental",
+        "publishedAt": "2024-06-24",
+        "notes": "Built from the official repository and uploaded by East_Arctica."
+    }],
+    "1.21": [{
+        "id": "JsMacros/JsMacros-1.9.3-1.21",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "76ef9d5f88e11cc52f565595d67bef4b518dc0ba",
+        "jsMacrosVersion": "1.9.3",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21-1.9.3-beta-76ef9d5.zip",
+                "platform": ["fabric", "forge", "ts"],
+                "url": "https://discord.com/channels/732004268948586545/732005513147187313/1250963208144027679",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "beta",
+        "status": "experimental",
+        "publishedAt": "2024-06-13"
+    }],
+    "1.21.1": [{
+        "id": "JsMacros/JsMacros-2.0.0-1.21.1",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official-ish",
+        "commit": "52249b6971ef1e5f9e80ea80448fdc6ccbccb863",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21-2.0.0-beta-52249b6-fabric.jar",
+                "platform": ["fabric"],
+                "url": "https://zipline.eastarcti.ca/u/gkSTeO.jar",
+                "checksum": "TODO: add checksum"
+            },
+            
+            {
+                "name": "jsmacros-1.21-2.0.0-beta-52249b6-forge.jar",
+                "platform": ["forge"],
+                "url": "https://zipline.eastarcti.ca/u/9iNbtt.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.21-2.0.0-beta-52249b6.zip",
+                "platform": ["fabric", "forge", "ts"],
+                "url": "https://zipline.eastarcti.ca/u/qYtzb1.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "beta",
+        "status": "experimental",
+        "publishedAt": "2025-03-14",
+        "notes": "Built from the official repository and uploaded by East_Arctica. The unimined dependency was upgraded from 1.4.0 to 1.4.1 as 1.4.0 is no longer available in the maven repository."
+    }],
+    "1.21.3": [{
+        "id": "Etheradon/JsMacros-2.0.0-1.21.3",
+        "repo": "Etheradon/JsMacros",
+        "fork": "Etheradon",
+        "commit": "5b84f3a33ad746cecd73d5b8d410be65bb92e70d",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21.3-2.0.0-beta-5b84f3a-fabric.jar",
+                "platform": ["fabric"],
+                "url": "https://zipline.eastarcti.ca/u/9Sjjea.jar",
+                "checksum": "TODO: add checksum"
+            },
+            
+            {
+                "name": "jsmacros-1.21.3-2.0.0-beta-5b84f3a-forge.jar",
+                "platform": ["forge"],
+                "url": "https://zipline.eastarcti.ca/u/LMA4KB.jar",
+                "checksum": "TODO: add checksum"
+            },
+            {
+                "name": "jsmacros-1.21.3-2.0.0-beta-5b84f3a.zip",
+                "platform": ["fabric", "forge", "ts"],
+                "url": "https://zipline.eastarcti.ca/u/AZXXWm.zip",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "beta",
+        "status": "experimental",
+        "publishedAt": "2024-11-21",
+        "notes": "Expired github artifact, re-uploaded by East_Arctica."
+    }],
+    "1.21.4": [{
+        "id": "JsMacros/JsMacros-2.0.0-1.21.4",
+        "repo": "JsMacros/JsMacros",
+        "fork": "Official",
+        "commit": "836eaa42edbd0b7997ba860d1682c2344d43c1bc",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js", "python"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21.4-2.0.0-beta-836eaa4.zip",
+                "platform": ["fabric", "forge", "ts", "python"],
+                "url": "https://discord.com/channels/732004268948586545/732005513147187313/1372099619177234493",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "beta",
+        "status": "experimental",
+        "publishedAt": "2025-03-27"
+    }, {
+        "id": "Etheradon/JsMacros-2.0.0-1.21.4",
+        "repo": "Etheradon/JsMacros",
+        "fork": "Etheradon",
+        "commit": "e61ee27d524e4b7c0677268abe82df87e22200fc",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric", "forge"],
+        "extensions": ["js", "python"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21.4-2.0.0-beta-e61ee27.zip",
+                "platform": ["fabric", "forge", "ts", "python"],
+                "url": "https://github.com/Etheradon/JsMacros/actions/runs/12232061186",
+                "checksum": "TODO: add checksum"
+            }
+        ],
+        "releaseType": "beta",
+        "status": "experimental",
+        "publishedAt": "2024-12-09",
+        "notes": "TODO: Expired github artifact, rebuild and re-upload."
+    }],
+    "1.21.5": [{
+        "id": "Pablete1234/JsMacros-2.0.0-1.21.8",
+        "repo": "Pablete1234/JsMacros",
+        "fork": "Pablete1234",
+        "commit": "addde4681f82ad2b1f154c0365ea7e8b3db181c0",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric"],
+        "extensions": ["js", "python"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21.5-2.0.0-beta-addde46-fabric.jar",
+                "platform": ["fabric"],
+                "url": "https://github.com/Pablete1234/JsMacros/releases/download/1.21.5/jsmacros-1.21.5-2.0.0-beta-addde46-fabric.jar",
+                "checksum": "sha256:4e21ffb68bd1aa1ec62184d4be46c82931e259e5786930b68a9dd1bdff2381f1"
+            }, {
+                "name": "jsmacros-1.21.5-python-extension.jar",
+                "platform": ["python"],
+                "url": "https://github.com/Pablete1234/JsMacros/releases/download/1.21.5/jsmacros-1.21.5-python-extension.jar",
+                "checksum": "sha256:c77103e70bfbb65f62469db1f8d680c2ea5e4ebaf886d0c524719b088dab5c1c"
+            }
+        ],
+        "releaseType": "beta",
+        "status": "experimental",
+        "publishedAt": "2025-12-09"
+    }],
+    "1.21.7": [{
+        "id": "therealevvv/jsmacrostorage-2.0.0-1.21.7",
+        "repo": "therealevvv/jsmacrostorage",
+        "fork": "therealevvv",
+        "commit": "8e75eaac329fb821cb924b94be999ff4cbaea65a",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21.7-2.0.0-fabric.jar",
+                "platform": ["fabric"],
+                "url": "https://github.com/therealevvv/jsmacrostorage/releases/download/1.21.7/jsmacros-1.21.7-2.0.0-fabric.jar",
+                "checksum": "sha256:42c9ea514d7b9b2b1450dd6d9d8c588b63b3dd019992b53ab89a1125564e2aa6"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2025-08-05"
+    }],
+    "1.21.8": [{
+        "id": "Pablete1234/JsMacros-2.0.0-1.21.8",
+        "repo": "Pablete1234/JsMacros",
+        "fork": "Pablete1234",
+        "commit": "86d7593d597abec52aaada338d29e6e8b5b4a675",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric"],
+        "extensions": ["js", "python"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21.8-2.0.0-beta-86d7593-fabric.jar",
+                "platform": ["fabric"],
+                "url": "https://github.com/Pablete1234/JsMacros/releases/download/1.21.8/jsmacros-1.21.8-2.0.0-beta-86d7593-fabric.jar",
+                "checksum": "sha256:c5878945807d3be851f584f9f7b1cdf81b10bc996884e8f0f8a36878fe54026c"
+            }, {
+                "name": "jsmacros-1.21.8-python-extension.jar",
+                "platform": ["python"],
+                "url": "https://github.com/Pablete1234/JsMacros/releases/download/1.21.8/jsmacros-1.21.8-python-extension.jar",
+                "checksum": "sha256:c77103e70bfbb65f62469db1f8d680c2ea5e4ebaf886d0c524719b088dab5c1c"
+            }
+        ],
+        "releaseType": "beta",
+        "status": "experimental",
+        "publishedAt": "2025-12-09"
+    }, {
+        "id": "therealevvv/jsmacrostorage-2.0.0-1.21.8",
+        "repo": "therealevvv/jsmacrostorage",
+        "fork": "therealevvv",
+        "commit": "8e75eaac329fb821cb924b94be999ff4cbaea65a",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric"],
+        "extensions": ["js"],
+        "downloads": [
+            {
+                "name": "jsmacros-1.21.8-2.0.0-fabric.jar",
+                "platform": ["fabric"],
+                "url": "https://github.com/therealevvv/jsmacrostorage/releases/download/1.21.8/jsmacros-1.21.8-2.0.0-fabric.jar",
+                "checksum": "sha256:3e89296589f6f29c70e2e75244490c9d9c9d77a6da7684dcab3b3e3b6c22cdd3"
+            }
+        ],
+        "releaseType": "release",
+        "status": "supported",
+        "publishedAt": "2025-08-11"
+    }],
+    "1.21.10": [{
+        "id": "EastArctica/JsMacros-Dev-2.0.0-1.21.10",
+        "repo": "EastArctica/JsMacros-Dev",
+        "fork": "EastArctica",
+        "commit": "48798ee25d3f863a12be5fcf2229b210b2166031",
+        "jsMacrosVersion": "2.1.0",
+        "modLoader": ["fabric", "neoforge"],
+        "extensions": ["js", "python"],
+        "downloads": [
+            {
+                "name": "jsmacros-2.1.0-beta-48798ee.zip",
+                "platform": ["fabric", "neoforge", "python", "ts"],
+                "url": "https://github.com/EastArctica/JsMacros-Dev/actions/runs/20015306814",
+                "checksum": "sha256:adca9f4557294d5684b4750681faf2e1a26502da891653db82cf8c14f5c13508"
+            }
+        ],
+        "releaseType": "nightly",
+        "status": "experimental",
+        "publishedAt": "2025-12-07"
+    }]
+  }
+}
