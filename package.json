@@ -2,7 +2,7 @@
   "name": "jsmacros-version-finder",
   "version": "0.1.0",
   "type": "module",
-  "packageManager": "pnpm@9.12.0",
+  "packageManager": "pnpm@10.25.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
