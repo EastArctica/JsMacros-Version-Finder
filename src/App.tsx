@@ -240,14 +240,13 @@ function App() {
                 <div key={b.id} className="card">
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                     <div>
-                      <strong>{b.fork}</strong> · {b.jsMacrosVersion}
+                      <strong>{b.fork}</strong> · {b.jsMacrosVersion} - {b.mcVersion}
                     </div>
                     <span className="badge" style={{ borderColor: releaseColor(b.releaseType), color: releaseColor(b.releaseType) }}>
                       {b.releaseType}
                     </span>
                   </div>
                   <div className="chip-row">
-                    <span className="chip">MC {b.mcVersion}</span>
                     <span className="chip">Loader: {b.modLoader.join(", ")}</span>
                     <span className="chip">Extensions: {b.extensions.join(", ")}</span>
                   </div>
