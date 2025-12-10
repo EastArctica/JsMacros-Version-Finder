@@ -79,7 +79,7 @@ function App() {
         setSelectedMcVersion(latest);
       }
     });
-  }, [selectedMcVersion]);
+  }, []);
 
   const mcVersions = useMemo(() => sortVersions(builds.map((b) => b.mcVersion), "desc"), [builds]);
   const loaders = useMemo(() => uniqueSorted(builds.flatMap((b) => b.modLoader)), [builds]);
