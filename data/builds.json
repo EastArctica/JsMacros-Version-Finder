@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2025-12-09",
+  "updatedAt": "2026-09-07",
   "versions": {
     "1.17.1": [
       {
@@ -663,6 +663,120 @@
         "releaseType": "beta",
         "publishedAt": "2026-02-04",
         "sourceUrl": "https://github.com/JsMacrosCE/JsMacros/releases/tag/v2.0.0-beta.4"
+      }
+    ],
+    "26.1.2": [
+      {
+        "id": "grepsedawk/JSMacros-2.0.3-26.1.2",
+        "repo": "grepsedawk/JSMacros",
+        "fork": "JsMacros Reloaded",
+        "commit": "1f47682fd0921b25096ae3d611cc4fb295891f58",
+        "jsMacrosVersion": "2.0.3",
+        "modLoader": ["fabric"],
+        "extensions": ["js", "python"],
+        "downloads": [
+          {
+            "name": "jsmacros-26.1.2-2.0.3-fabric.jar",
+            "platform": ["fabric"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.0.3/jsmacros-26.1.2-2.0.3-fabric.jar",
+            "checksum": "sha256:bb8664f2050b070d231653a20e2077fd95abc5a3ab28a8d2f10fe95b8b79fcb9"
+          },
+          {
+            "name": "jsmacros-26.1.2-python-extension.jar",
+            "platform": ["python"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.0.3/jsmacros-26.1.2-python-extension.jar",
+            "checksum": "sha256:e8017e5b01dde4c89e3863557e8fef8099dec72aac6c4d6ad6fcf7181e0b0401"
+          }
+        ],
+        "releaseType": "release",
+        "publishedAt": "2026-06-22",
+        "sourceUrl": "https://github.com/grepsedawk/JSMacros/releases/tag/v2.0.3"
+      },
+      {
+        "id": "grepsedawk/JSMacros-2.0.1-26.1.2",
+        "repo": "grepsedawk/JSMacros",
+        "fork": "JsMacros Reloaded",
+        "commit": "f72cb42e6b38dd569a7333226e4d066eddfb486c",
+        "jsMacrosVersion": "2.0.1",
+        "modLoader": ["fabric"],
+        "extensions": ["js", "python"],
+        "downloads": [
+          {
+            "name": "jsmacros-26.1.2-2.0.1-fabric.jar",
+            "platform": ["fabric"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.0.1/jsmacros-26.1.2-2.0.1-fabric.jar",
+            "checksum": "sha256:a9168656613aba8ae13f63b08cd385ece4dda0e11dac67009610e93fcf95d248"
+          },
+          {
+            "name": "jsmacros-26.1.2-python-extension.jar",
+            "platform": ["python"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.0.1/jsmacros-26.1.2-python-extension.jar",
+            "checksum": "sha256:e8017e5b01dde4c89e3863557e8fef8099dec72aac6c4d6ad6fcf7181e0b0401"
+          }
+        ],
+        "releaseType": "release",
+        "publishedAt": "2026-06-21",
+        "sourceUrl": "https://github.com/grepsedawk/JSMacros/releases/tag/v2.0.1"
+      },
+      {
+        "id": "grepsedawk/JSMacros-2.0.0-26.1.2",
+        "repo": "grepsedawk/JSMacros",
+        "fork": "JsMacros Reloaded",
+        "commit": "2e342e8c9cabe88986789e33a13ccca98a46db61",
+        "jsMacrosVersion": "2.0.0",
+        "modLoader": ["fabric"],
+        "extensions": ["js", "python", "ruby"],
+        "downloads": [
+          {
+            "name": "jsmacros-26.1.2-2.0.0-fabric.jar",
+            "platform": ["fabric"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.0.0/jsmacros-26.1.2-2.0.0-fabric.jar",
+            "checksum": "sha256:d4d9d52a99f8198a7fa29e4045ae1106c889f11f721e74ceacb9ca79025feaeb"
+          },
+          {
+            "name": "jsmacros-26.1.2-python-extension.jar",
+            "platform": ["python"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.0.0/jsmacros-26.1.2-python-extension.jar",
+            "checksum": "sha256:e8017e5b01dde4c89e3863557e8fef8099dec72aac6c4d6ad6fcf7181e0b0401"
+          },
+          {
+            "name": "jsmacros-26.1.2-ruby-2.0.0.jar",
+            "platform": ["extension"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.0.0/jsmacros-26.1.2-ruby-2.0.0.jar",
+            "checksum": "sha256:ccad4f73efef83f79eb3f175ee0687b30f1aa5856c770d5d01b7597a46584497"
+          }
+        ],
+        "releaseType": "release",
+        "publishedAt": "2026-06-14",
+        "sourceUrl": "https://github.com/grepsedawk/JSMacros/releases/tag/v2.0.0"
+      }
+    ],
+    "26.2": [
+      {
+        "id": "grepsedawk/JSMacros-2.1.0-26.2",
+        "repo": "grepsedawk/JSMacros",
+        "fork": "JsMacros Reloaded",
+        "commit": "484ca7f167b8d9ed169c62e06d86fd45bb469e37",
+        "jsMacrosVersion": "2.1.0",
+        "modLoader": ["fabric"],
+        "extensions": ["js", "python"],
+        "downloads": [
+          {
+            "name": "jsmacros-26.2-2.1.0-fabric.jar",
+            "platform": ["fabric"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.1.0%2B26.2/jsmacros-26.2-2.1.0-fabric.jar",
+            "checksum": "sha256:6ecadf14f1805c8d62a7ed9b2c6310a9b2b78bd1abb33ecda23e055b0bb8f16a"
+          },
+          {
+            "name": "jsmacros-26.2-python-extension.jar",
+            "platform": ["python"],
+            "url": "https://github.com/grepsedawk/JSMacros/releases/download/v2.1.0%2B26.2/jsmacros-26.2-python-extension.jar",
+            "checksum": "sha256:e8017e5b01dde4c89e3863557e8fef8099dec72aac6c4d6ad6fcf7181e0b0401"
+          }
+        ],
+        "releaseType": "release",
+        "publishedAt": "2026-07-08",
+        "sourceUrl": "https://github.com/grepsedawk/JSMacros/releases/tag/v2.1.0%2B26.2"
       }
     ]
   }
